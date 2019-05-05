@@ -1,0 +1,26 @@
+{
+    "name": "cyvelnet/laravel-billplz",
+    "description": "Flexible billing and payment solution from Billplz for laravel ",
+    "keywords": ["laravel","billplz"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyvelnet",
+            "email": "cyvelnet@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.0",
+        "guzzlehttp/guzzle": "~5.3|~6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cyvelnet\\LaravelBillplz\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
